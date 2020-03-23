@@ -49,3 +49,11 @@ eval $(docker-machine env default)
 $ docker run hello-world
 $ docker-machine stop default
 ```
+
+
+## Change Dev -> Production
+```
+$ eval $(docker-machine env testdriven-prod)
+$ docker-compose -f docker-compose-prod.yml up -d --build
+
+```
