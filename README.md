@@ -1,7 +1,5 @@
 # Microservices with Docker, Flash & React
 
-# Microservices with Docker, Flask, and React
-
 [![Build Status](https://travis-ci.org/LucasHelal/testdriven-app.svg?branch=master)](https://travis-ci.org/LucasHelal/testdriven-app)
 
 ## Configuration
