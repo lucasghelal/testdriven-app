@@ -70,4 +70,13 @@ $ eval $(dm env -u)
 ## Tests
 ```
 $ docker-compose exec users python manage.py test
+
+$ docker-compose exec users python manage.py cov
+
+```
+
+## Lint
+```
+$ docker-compose exec users flake8 project
+
 ```
