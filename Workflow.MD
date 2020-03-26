@@ -80,3 +80,10 @@ $ docker-compose exec users python manage.py cov
 $ docker-compose exec users flake8 project
 
 ```
+
+## Enviroment Variables
+
+```
+$ export REACT_APP_USERS_SERVICE_URL=http://localhost
+
+```
