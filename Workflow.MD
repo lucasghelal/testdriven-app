@@ -85,5 +85,5 @@ $ docker-compose exec users flake8 project
 
 ```
 $ export REACT_APP_USERS_SERVICE_URL=http://localhost
-
+$ export REACT_APP_USERS_SERVICE_URL=http://192.168.99.100 MAC IP
 ```
