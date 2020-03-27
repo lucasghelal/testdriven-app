@@ -2,5 +2,7 @@ env
 .dockerignore
 Dockerfile
 Dockerfile-prod
+htmlcov
+migrations
 
 services/users/htmlcov/
